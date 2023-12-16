@@ -5,7 +5,7 @@ import uz.coder.tezhisob.presentation.App
 import dagger.BindsInstance
 import dagger.Component
 import uz.coder.tezhisob.presentation.GameFragment
-
+@AplicationScope
 @Component(modules = [DomainMudule::class, VievModelModule::class])
 interface AplicationComponent {
 
