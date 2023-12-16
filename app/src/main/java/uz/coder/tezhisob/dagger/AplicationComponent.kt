@@ -6,7 +6,7 @@ import dagger.BindsInstance
 import dagger.Component
 import uz.coder.tezhisob.presentation.GameFragment
 
-@Component(modules = [DataMudule::class, VievModelModule::class])
+@Component(modules = [DomainMudule::class, VievModelModule::class])
 interface AplicationComponent {
 
     fun inject(gameFragment: GameFragment)

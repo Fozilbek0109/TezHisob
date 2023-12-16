@@ -6,9 +6,10 @@ import dagger.Binds
 import dagger.Module
 
 @Module
-interface DataMudule {
+interface DomainMudule {
 
 @Binds
+@AplicationScope
 fun bindsGameRepository(impl: GameRepositoryImpl): GameRepository
 
 }
