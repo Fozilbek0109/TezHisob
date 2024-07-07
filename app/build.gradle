@@ -2,15 +2,15 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id("androidx.navigation.safeargs") version ("2.4.2")
+    id("androidx.navigation.safeargs") version ("2.7.3")
 }
 
 android {
-    namespace 'uz.coder.tezhisob'
+    namespace 'uz.coder.mathgame'
     compileSdk 34
 
     defaultConfig {
-        applicationId "uz.coder.tezhisob"
+        applicationId "uz.coder.mathgame"
         minSdk 24
         targetSdk 34
         versionCode 1
